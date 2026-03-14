@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>KM Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Knowledge Management</h1>
+<nav>
+<a href="index.html">หน้าแรก</a>
+<a href="about.html">เกี่ยวกับเรา</a>
+</nav>
+</header>
+
+<div class="container">
+
+<main>
+
+<article>
+<h2><a href="post1.html">การสื่อสารกับบรรณาธิการ & Reviewer</a></h2>
+<p>การสื่อสารกับบรรณาธิการเป็นขั้นตอนสำคัญของการตีพิมพ์บทความวิชาการ...</p>
+</article>
+
+<article>
+<h2><a href="post2.html">การเขียนภาษาอังกฤษเชิงวิชาการ</a></h2>
+<p>การเขียนภาษาอังกฤษเชิงวิชาการต้องใช้โครงสร้างประโยคที่ชัดเจน...</p>
+</article>
+
+<article>
+<h2><a href="post3.html">องค์ประกอบบทความวิจัย</a></h2>
+<p>บทความวิจัยประกอบด้วยส่วนสำคัญหลายส่วน เช่น บทนำ วิธีการวิจัย...</p>
+</article>
+
+<div class="pagination">
+<a class="active">1</a>
+<a href="page2.html">2</a>
+</div>
+
+</main>
+
+<aside>
+
+<div class="widget">
+<h3>ค้นหา</h3>
+<input type="text" id="search">
+</div>
+
+<div class="widget">
+<h3>บทความล่าสุด</h3>
+<ul>
+<li>การสื่อสารกับ Reviewer</li>
+<li>การเขียนอังกฤษเชิงวิชาการ</li>
+<li>องค์ประกอบบทความวิจัย</li>
+</ul>
+</div>
+
+<div class="widget">
+<h3>ความคิดเห็นล่าสุด</h3>
+<ul id="recentComments"></ul>
+</div>
+
+</aside>
+
+</div>
+
+<button onclick="topFunction()" id="topBtn">↑</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
